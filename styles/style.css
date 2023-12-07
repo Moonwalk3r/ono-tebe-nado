@@ -1,6 +1,8 @@
 .header {
 display: grid;
-
+grid-template-columns:  1fr min-content 1fr;
+align-items: center;
+padding: 92 49;
 }
 
 .header__links-list {
@@ -10,32 +12,35 @@ gap: 32px;
 
 .header__links-list-item {
     color: #000;
-    font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-}
-.header__links-list-item.nobullit {
+   }
 
-}
 .header__link {
-border-bottom: 1px solid;
+    
 }
 .header__link-active {
-
+    border-bottom: none;
 }
 .header__logo {
     justify-self: center;
     width: 148px;
-    height: 105px;
+    
 }
 .header__logo-image {
-
+    display: block;
+    height: 114px;
+    object-fit: cover;
+    object-position: top;
 }
 .address {
+    font-size: 18px;
+    max-width: 240px;
+    font-style: normal;
+    line-height: 1.35em;
 
 }
-.header__address {
 
+.header__address {
+justify-self: right;
 }
