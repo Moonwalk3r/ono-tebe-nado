@@ -2,7 +2,7 @@
 display: grid;
 grid-template-columns:  1fr min-content 1fr;
 align-items: center;
-padding: 92 49;
+padding: 92px 49px ;
 }
 
 .header__links-list {
@@ -11,13 +11,13 @@ gap: 32px;
 }
 
 .header__links-list-item {
-    color: #000;
     font-size: 18px;
     font-weight: 400;
-   }
+}
 
 .header__link {
-    
+    border-bottom: 1px, solid;
+    font-weight: 400;
 }
 .header__link-active {
     border-bottom: none;
@@ -25,22 +25,26 @@ gap: 32px;
 .header__logo {
     justify-self: center;
     width: 148px;
+    height: 105px;
     
 }
 .header__logo-image {
     display: block;
     height: 114px;
-    object-fit: cover;
-    object-position: top;
 }
 .address {
     font-size: 18px;
     max-width: 240px;
     font-style: normal;
-    line-height: 1.35em;
-
+    line-height: 24.3px;
 }
 
 .header__address {
-justify-self: right;
+    justify-self: right;
+}
+.cover {
+    background-image: url(../images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
