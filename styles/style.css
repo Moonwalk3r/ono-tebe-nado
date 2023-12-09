@@ -41,6 +41,12 @@
     line-height: 24.3px;
 }
 
+
+.address__link {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
 .header__address {
     justify-self: right;
 }
