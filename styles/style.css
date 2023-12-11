@@ -158,10 +158,6 @@
     min-height: 450px;
 }
 
-.card-link {
-    cursor: pointer;
-}
-
 .card {
     height: 100%;
     padding: 50px 40px;
