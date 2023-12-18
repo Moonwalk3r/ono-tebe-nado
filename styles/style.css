@@ -16,7 +16,7 @@
   list-style: circle;
 }
 
-.header__link-active {
+.header__link_active {
   text-decoration: none;
 }
 
@@ -25,7 +25,7 @@
   font-weight: 400;
 }
 
-.header__links-item-active {
+.header__links-item_active {
   text-decoration: none;
   list-style-type: none;
 }
@@ -265,26 +265,20 @@
   margin-bottom: 100px;
 }
 
-.about__text-container {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
 .about__text {
   font-family: Raleway, sans-serif;
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
   line-height: normal;
-  padding-bottom: 25px;
+  margin-top: 25px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  margin: 155px 50px 90px 50px;
+  margin: 180px 50px 90px 50px;
 }
 
 .footer__menu {
